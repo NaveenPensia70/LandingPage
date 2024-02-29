@@ -17,6 +17,7 @@
 .logo{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .header img{
     height: 40px;
@@ -38,6 +39,46 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
+.home{
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: #1F2937;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+.home img{
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin-right: 170px;
+}
+.content{
+    /* border: 2px solid blue; */
+    height:200px;
+    margin-left: 150px;
+}
+.content .heading{
+    font: 48px ;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+.text{
+    line-height:25px;
+    font: 18px;
+    color: #E5E7EB;
+}
+.btn{
+    margin-top: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding:5px 5px;
+    text-decoration: none;
+}
+.heading{
+    font-size: 48px;
+} 
 
 
 
