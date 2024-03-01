@@ -100,6 +100,7 @@ ul{
     margin-top:15px;
     justify-content: center;
     gap: 30px;
+    margin-top: 15px;
 }
 .feature-item{
     /* border: 2px solid red; */
@@ -117,5 +118,36 @@ ul{
     font-size: 16px;
     color:rgb(80, 75, 75);
 }
+
+/* AboutUs */
+.about-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    /* border: 3px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    color: #1F2937;
+    font-weight: light;
+    font-size: 36px;
+    width: 900px;
+    height: 250px;
+    /* border: 2px solid blue; */
+    font-style: italic;
+    
+}
+.person{
+    /* border: 2px solid red; */
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 450px;
+}
+/* .container{
+    border: 3px solid black;
+    height: 400px;
+} */
 
 
